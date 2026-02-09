@@ -1,4 +1,4 @@
-package netology;
+package netology.hometasks1;
 
 public class HomeTask_1 {
     public static void main(String[] args) {
