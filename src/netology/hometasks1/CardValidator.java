@@ -1,10 +1,10 @@
 package netology.hometasks1;
 
-public class HomeTask2 {
-    public static void main(String[] args) {
+public class CardValidator {
+    public static void cardValidation(String cardNumber) {
         // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
-        String number = "53517194274810741";
-        System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
+//        String number = "53517194274810741";
+        System.out.println(String.format("Result is %s", isValidCardNumber(cardNumber) ? "OK" : "FAIL"));
     }
 
     public static boolean isValidCardNumber(String number) {
